@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
     private fun setupProfile() {
         configureImage()
         configureName()
+        configureBio()
     }
 
     private fun configureImage() {
@@ -39,5 +40,10 @@ class MainActivity : AppCompatActivity() {
         profileName.text =
             getString(R.string.full_name, getString(R.string.first_name), getString(R.string.last_name)
         )
+    }
+
+    private fun configureBio() {
+        profileBio.text =
+            getString(R.string.profile_bio_text)
     }
 }

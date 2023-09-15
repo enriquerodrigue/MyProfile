@@ -5,8 +5,8 @@
     <string name="last_name">Rodriguez</string>
     <string name="full_name">%s %s</string>
 
-    <string name="profile_bio_text">I am a 23 year old studying to become a\nSoftware Engineer.
-        My favorite language to program in is Python.\n</string>
+    <string name="profile_bio_text">I am a 23 year old studying to become a Software Engineer.
+        My favorite language to program in is Python.</string>
 
     <string name="profile_hobby_header_text">Greatest Hobbies of All Time:</string>
     <string name="profile_hobby_first_text">🥇 CODING 👨‍💻</string>
