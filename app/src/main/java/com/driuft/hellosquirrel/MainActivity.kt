@@ -1,9 +1,6 @@
 package com.driuft.hellosquirrel
 
-import android.os.Build
 import android.os.Bundle
-import android.view.WindowInsets
-import android.view.WindowManager
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -35,14 +32,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun configureImage() {
-        profileImage.setImageDrawable(AppCompatResources.getDrawable(this, R.drawable.ic_launcher_foreground))
+        profileImage.setImageDrawable(AppCompatResources.getDrawable(this, R.drawable.sion_image))
     }
 
     private fun configureName() {
-        profileName.text = getString(
-            R.string.full_name,
-            getString(R.string.first_name),
-            getString(R.string.last_name)
+        profileName.text =
+            getString(R.string.full_name, getString(R.string.first_name), getString(R.string.last_name)
         )
     }
 }
